@@ -1,0 +1,33 @@
+/* Container Box */
+.heatmap-container {
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+}
+
+/* Default Empty Square (Jis din kuch nahi kiya) */
+.react-calendar-heatmap .color-empty {
+  fill: #334155; /* Dark greyish blue background */
+}
+
+/* Level 1: Kam habits poori ki */
+.react-calendar-heatmap .color-scale-1 {
+  fill: #0ea5e9; /* Light Blue */
+}
+
+/* Level 2: Medium habits */
+.react-calendar-heatmap .color-scale-2 {
+  fill: #2563eb; /* Royal Blue */
+}
+
+/* Level 3: Boht saari habits ki (Streak King!) */
+.react-calendar-heatmap .color-scale-3 {
+  fill: #1d4ed8; /* Dark/Deep Blue */
+}
+
+/* Square rounded corners */
+.react-calendar-heatmap rect {
+  rx: 2px;
+  ry: 2px;
+}
